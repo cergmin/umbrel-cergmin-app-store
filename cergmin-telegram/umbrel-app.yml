@@ -2,9 +2,9 @@ manifestVersion: 1
 id: cergmin-telegram
 name: Telegram
 tagline: Telegram client
-icon: https://svgur.com/i/mvA.svg
+icon: https://raw.githubusercontent.com/cergmin/umbrel-cergmin-app-store/refs/heads/master/cergmin-telegram/logo.svg
 category: Development
-version: "1.0.5"
+version: "1.0.9"
 port: 3857
 description: >-
   Telegram client for Umbrel
