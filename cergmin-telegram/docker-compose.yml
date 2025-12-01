@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: cergmin-telegram_server_1
+      APP_PORT: 3857
+    
+  server:
+    image: cergmin/telegram-cergmin-dev:latest
+    environment:
+      PORT: 3857
+      SECRET: ${APP_SEED}
+    volumes:
+      - ${APP_DATA_DIR}/storage:/app/telegram/storage

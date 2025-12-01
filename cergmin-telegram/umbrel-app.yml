@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: cergmin-telegram
+name: Telegram
+tagline: Telegram client
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "1.0.5"
+port: 3857
+description: >-
+  Telegram client for Umbrel
+developer: cergmin
+website: https://cergmin.dev
+submitter: cergmin
+submission: https://github.com/cergmin
+repo: https://github.com/cergmin
+support: https://github.com/cergmin
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
