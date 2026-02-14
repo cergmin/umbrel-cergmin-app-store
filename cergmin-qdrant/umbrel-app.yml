@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: cergmin-qdrant
+name: Qdrant
+tagline: High-Performance Vector Search
+icon: https://raw.githubusercontent.com/cergmin/umbrel-cergmin-app-store/refs/heads/master/cergmin-qdrant/logo.png
+category: Development
+version: "1.16.3"
+port: 6333
+description: >-
+  qdrant
+developer: qdrant
+website: https://qdrant.tech
+submitter: cergmin
+submission: https://github.com/cergmin
+repo: https://github.com/qdrant/qdrant
+support: https://github.com/qdrant/qdrant/discussions
+gallery: []
+releaseNotes: >-
+  First release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

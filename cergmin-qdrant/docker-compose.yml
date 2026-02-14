@@ -1,0 +1,17 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: cergmin-qdrant_qdrant_1
+      APP_PORT: 6333
+      PROXY_AUTH_ADD: "false"
+    depends_on:
+      - qdrant
+    
+  qdrant:
+    image: haktansuren/qdrant-pi5-fixed-jemalloc:latest
+    restart: on-failure
+    ports:
+      - 6334:6334
+    volumes:
+      - ${APP_DATA_DIR}/data/qdrant/storage:/qdrant/storage
+      - ${APP_DATA_DIR}/data/qdrant/config:/qdrant/config

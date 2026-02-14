@@ -1,0 +1,4 @@
+log_level: DEBUG
+
+service:
+  api_key: it_works_locally
