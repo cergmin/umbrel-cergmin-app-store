@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: cergmin-mem0
+name: mem0
+tagline: Open-source memory assistant
+icon: https://raw.githubusercontent.com/cergmin/umbrel-cergmin-app-store/refs/heads/master/cergmin-mem0/logo.png
+category: Development
+version: "1.0.3"
+port: 6782
+description: >-
+  mem0
+developer: mem0
+website: https://mem0.ai
+submitter: cergmin
+submission: https://github.com/cergmin
+repo: https://github.com/mem0ai/mem0
+support: https://github.com/mem0ai/mem0/discussions
+gallery: []
+releaseNotes: >-
+  First release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
